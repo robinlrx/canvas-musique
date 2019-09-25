@@ -6,7 +6,8 @@
     "node": ">= 10.0.0"
   },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "sequelize": "sequelize"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,9 +16,12 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "^2.0.4",
+    "sequelize": "^5.19.0",
+    "sqlite3": "^4.1.0",
     "stylus": "0.54.5"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "sequelize-cli": "^5.5.1"
   }
 }
