@@ -1,1 +1,10 @@
-generated with npx express-generator --view=pug --css stylus --git
+# install:
+
+npm install
+
+node_modules/.bin/sequelize db:migrate
+node_modules/.bin/sequelize db:seed:all
+
+# run
+
+npm run start
