@@ -23,4 +23,6 @@ node_modules/.bin/sequelize db:seed:all
 
 # run
 
-npm run start
+`npm start`
+
+or with auto-reload: `npm run dev`
